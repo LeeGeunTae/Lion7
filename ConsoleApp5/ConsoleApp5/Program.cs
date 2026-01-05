@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Threading;
 
 namespace ConsoleApp5
 {
@@ -21,17 +22,51 @@ namespace ConsoleApp5
             int faith        = 9;
             int arcane       = 7;
 
-            Console.WriteLine("┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓");
-            Console.WriteLine($"┃              level        = {level       }              ┃");
-            Console.WriteLine($"┃              vigor        = {vigor       }              ┃");
-            Console.WriteLine($"┃              mind         = {mind        }              ┃");
-            Console.WriteLine($"┃              endurance    = {endurance   }              ┃");
-            Console.WriteLine($"┃              strength     = {strength    }              ┃");
-            Console.WriteLine($"┃              dextarity    = {dextarity   }              ┃");
-            Console.WriteLine($"┃              intelligence = {intelligence}              ┃");
-            Console.WriteLine($"┃              faith        = {faith       }               ┃");
-            Console.WriteLine($"┃              arcane       = {arcane}               ┃");
-            Console.WriteLine("┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛");
+
+            Console.WriteLine("┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓");
+            Console.WriteLine("┃                                        ┃");
+            Console.WriteLine("┃               Game Start               ┃");
+            Console.WriteLine("┃                                        ┃");
+            Console.WriteLine("┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛");
+            Thread.Sleep(3000);
+            Console.Clear();
+            Thread.Sleep(200);
+
+            Console.WriteLine("┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓");
+            Console.WriteLine("┃                  ━━┓                   ┃");
+            Console.WriteLine("┃                  ━━┃                   ┃");
+            Console.WriteLine("┃                  ━━┛                   ┃");
+            Console.WriteLine("┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛");
+            Thread.Sleep(1000);
+            Console.Clear();
+            Thread.Sleep(200);
+
+            Console.WriteLine("┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓");
+            Console.WriteLine("┃                  ━━┓                   ┃");
+            Console.WriteLine("┃                  ┏━┛                   ┃");
+            Console.WriteLine("┃                  ┗━━                   ┃");
+            Console.WriteLine("┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛");
+            Thread.Sleep(1000);
+            Console.Clear();
+            Thread.Sleep(200);
+
+            Console.WriteLine("┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓");
+            Console.WriteLine("┃                   ┃                    ┃");
+            Console.WriteLine("┃                   ┃                    ┃");
+            Console.WriteLine("┃                   ┃                    ┃");
+            Console.WriteLine("┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛");
+            Thread.Sleep(1000);
+            Console.Clear();
+            Thread.Sleep(400);
+
+            Console.WriteLine("┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓");
+            Console.WriteLine("┃                                        ┃");
+            Console.WriteLine("┃              F I G H T !               ┃");
+            Console.WriteLine("┃                                        ┃");
+            Console.WriteLine("┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛");
+
+            Thread.Sleep(1500);
+            Console.Clear();
         }
     }
 }
